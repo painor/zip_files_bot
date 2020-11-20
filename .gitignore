@@ -1,0 +1,13 @@
+# User session
+*.session
+*.session-journal
+
+
+# Builds and testing
+__pycache__/
+/dist/
+/build/
+
+
+# File used to manually test, contains sensitive data
+/config.ini
