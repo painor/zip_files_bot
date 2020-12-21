@@ -3,10 +3,12 @@ from os.path import basename
 from zipfile import ZipFile
 import configparser
 
-from garnet import RuntimeConfig
-from garnet import Router, ctx, run
+from garnet import ctx
+from garnet.runner import RuntimeConfig
+from garnet.runner import run
 from garnet.filters import text, State, group
 from garnet.storages import DictStorage
+from garnet.events import Router
 
 router = Router()
 
